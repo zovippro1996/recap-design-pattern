@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using SingletonDemo;
+
+using Singleton2;
 
 Console.WriteLine("***Singleton Pattern Demo.***\n");
 
@@ -13,5 +14,6 @@ else
 {
     Console.WriteLine("Difference");
 }
-Console.WriteLine($"The value of MyInt is :{Singleton.MyInt}");
+
+
 Console.Read();
