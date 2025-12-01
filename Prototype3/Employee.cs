@@ -7,11 +7,19 @@ public class Employee
     public int Id { get; set; }
     public string Name { get; set; }
     public EmpAddress EmpAddress { get; set; }
+    
     public Employee(int id, string name, EmpAddress empAddress)
     {
         this.Id = id;
         this.Name = name;
         this.EmpAddress = empAddress;
+    }
+
+    public Employee(Employee originalEmployee)
+    {
+        this.Id = originalEmployee.Id;
+        this.Name = originalEmployee.Name;
+        this.EmpAddress = originalEmployee.EmpAddress.CloneAddress() as EmpAddress;
     }
 
     public override string ToString()
