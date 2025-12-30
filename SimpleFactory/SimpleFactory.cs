@@ -1,5 +1,3 @@
-using System;
-
 namespace SimpleFactory;
 
 public class SimpleFactory
@@ -12,7 +10,7 @@ public class SimpleFactory
         int input;
         if (int.TryParse(b1, out input))
         {
-            System.Console.WriteLine("You have entered {0}", input);
+            Console.WriteLine("You have entered {0}", input);
             switch (input)
             {
                 case 0:
@@ -22,7 +20,7 @@ public class SimpleFactory
                     intendedAnimal = new Tiger();
                     break;
                 default:
-                    System.Console.WriteLine("You must enter either 0 or 1");
+                    Console.WriteLine("You must enter either 0 or 1");
                     throw new NotImplementedException("Unknown Animal cannot be instantiated");
             }
         }

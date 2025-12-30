@@ -1,5 +1,3 @@
-using System;
-
 namespace Builder2;
 
 class Car : IBuilder

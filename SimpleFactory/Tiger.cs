@@ -1,5 +1,3 @@
-using System;
-
 namespace SimpleFactory;
 
 public class Tiger : IAnimal

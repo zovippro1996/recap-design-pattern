@@ -1,5 +1,3 @@
-using System;
-
 namespace Builder;
 
 class Product

@@ -1,5 +1,3 @@
-using System;
-
 namespace Prototype;
 
 public abstract class BasicCar

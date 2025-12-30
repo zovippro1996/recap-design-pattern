@@ -1,5 +1,3 @@
-using System;
-
 namespace Prototype2;
 
 class CarFactory

@@ -1,5 +1,3 @@
-using System;
-
 namespace Prototype;
 
 public class Ford : BasicCar
