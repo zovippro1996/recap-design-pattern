@@ -1,10 +1,9 @@
-﻿namespace Factory
+﻿namespace Factory;
+
+public class Tiger : IAnimal
 {
-    public class Tiger : IAnimal
+    public void AboutMe()
     {
-        public void AboutMe()
-        {
-            Console.WriteLine("The tiger says: Halum. I prefer hunting.");
-        }
+        Console.WriteLine("The tiger says: Halum. I prefer hunting.");
     }
 }

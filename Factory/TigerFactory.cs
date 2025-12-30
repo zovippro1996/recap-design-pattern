@@ -1,10 +1,9 @@
-﻿namespace Factory
+﻿namespace Factory;
+
+public class TigerFactory : AnimalFactory
 {
-    public class TigerFactory : AnimalFactory
+    public override IAnimal CreateAnimal()
     {
-        public override IAnimal CreateAnimal()
-        {
-            return new Tiger();
-        }
+        return new Tiger();
     }
 }
